@@ -1,0 +1,8 @@
+Due to space constraints, we store our data in other locations. 
+Readers can download the data according to the URL in the file and put it in the corresponding folder.
+
+After downloading the data, the process of using the software is as follows:
+
+1. Using "H5_Data.py" to convert the original data into H5 format data.
+2. Using "RNAProfile_Prediction.py" to training and validating the model based on the H5 data.
+3. Using the saved model to get prediction results based on testing data.
